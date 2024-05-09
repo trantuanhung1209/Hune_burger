@@ -1,0 +1,164 @@
+html body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
+.collapse {
+    margin-left: 50px !important;
+    position: relative;
+    top: -18px;
+}
+
+.navbar-brand {
+    color: aliceblue !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.navbar-toggler-icon {
+    color: aliceblue !important;
+}
+
+.navbar li a{
+    color: aliceblue !important;
+}
+
+.navbar a:hover {
+    color: rgb(255, 162, 0) !important;
+}
+
+.bg-box {
+    width: 100%;  /* Set width to 100% for full viewport coverage */
+    height: 100%;  /* Set height to 100% for full viewport coverage */
+    z-index: -1;  
+    position: absolute;
+    top: 0;  /* Position at the top of the viewport */
+    left: 0;  /* Position at the left of the viewport */
+  }
+
+.fa-user {
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+.fa-user:hover {
+    color: rgb(255, 162, 0);
+}
+
+.fa-shopping-cart {
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.fa-shopping-cart:hover {
+    color: rgb(255, 162, 0);
+}
+
+.fa-search {
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.fa-search:hover {
+    color: rgb(255, 162, 0);
+    
+}
+
+.order_online {
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+.btn {
+    background-color: rgb(255, 162, 0);
+}
+
+button:hover {
+    background-color: #ebac25 !important;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    text-decoration: none;
+    margin-left: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    position: relative;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.container_center {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.heading_container h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 30px;
+    font-weight: bolder;
+    position: relative;
+    margin-left: 250px;
+}
+
+.button {
+    margin-left: 220px;
+}
+
+.container_center button:focus {
+    border-color: #777 !important;
+}
+
+.form-input {
+    width: 500px !important;
+    margin-left: 200px;
+}
+
+.form_center {
+    display: flex;
+    justify-content: space-around;
+}
